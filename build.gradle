@@ -59,7 +59,7 @@ jar {
         attributes 'Rundeck-Plugin-Rundeck-Compatibility-Version': '5.x'
         attributes 'Rundeck-Plugin-Tags': 'java,WorkflowStep,ROI,metrics'
         attributes 'Rundeck-Plugin-License': 'Apache 2.0'
-        attributes 'Rundeck-Plugin-Source-Link': 'https://github.com/your-org/rundeck-setroidefaults'
+        attributes 'Rundeck-Plugin-Source-Link': 'https://github.com/justynroberts/set-roi-defaults-plugin'
         attributes 'Rundeck-Plugin-Target-Host-Compatibility': 'all'
         attributes 'Rundeck-Plugin-Version': rundeckPluginVersion
         attributes 'Rundeck-Plugin-Archive': 'true'

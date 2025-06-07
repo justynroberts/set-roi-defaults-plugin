@@ -6,7 +6,7 @@
 [![Java Version](https://img.shields.io/badge/Java-11%2B-orange.svg)](https://openjdk.java.net/)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-yellow.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Platform](https://img.shields.io/badge/platform-linux-lightgrey.svg)](https://www.linux.org/)
-[![Plugin Version](https://img.shields.io/badge/Plugin%20Version-0.1.0-green.svg)](https://github.com/your-org/rundeck-setroidefaults)
+[![Plugin Version](https://img.shields.io/badge/Plugin%20Version-0.1.0-green.svg)](https://github.com/justynroberts/set-roi-defaults-plugin)
 [![Support](https://img.shields.io/badge/Support-Community%20Only-orange.svg)](#-support-disclaimer)
 
 *A Rundeck Workflow Step Plugin to automatically manage ROI (Return on Investment) metric defaults for jobs*
@@ -109,7 +109,7 @@ The **Rundeck Set ROI Defaults Plugin** is a Workflow Step Plugin that automatic
 #### Option A: Download from Releases (Recommended)
 ```bash
 # Download the latest release
-wget https://github.com/your-org/rundeck-setroidefaults/releases/download/v0.1.0/set-roi-defaults-0.1.0.jar
+wget https://github.com/justynroberts/set-roi-defaults-plugin/releases/download/v0.1.0/set-roi-defaults-0.1.0.jar
 
 # Verify download
 ls -la set-roi-defaults-0.1.0.jar
@@ -127,7 +127,7 @@ gradle -version
 **Build Steps:**
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-org/rundeck-setroidefaults.git
+git clone https://github.com/justynroberts/set-roi-defaults-plugin.git
 cd rundeck-setroidefaults
 
 # 2. Build the plugin
@@ -625,7 +625,7 @@ echo "User: ${RD_JOB_USERNAME}"
 
 ```bash
 # Clone and build
-git clone https://github.com/your-org/rundeck-setroidefaults.git
+git clone https://github.com/justynroberts/set-roi-defaults-plugin.git
 cd rundeck-setroidefaults
 
 # Clean build

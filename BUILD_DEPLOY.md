@@ -64,7 +64,7 @@ gradle -version
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-org/rundeck-setroidefaults.git
+git clone https://github.com/justynroberts/set-roi-defaults-plugin.git
 cd rundeck-setroidefaults
 
 # 2. Set Java environment (if multiple versions installed)
@@ -108,7 +108,7 @@ jar -tf build/libs/set-roi-defaults-0.1.0.jar | head -20
 #### Option A: Using Release Download
 ```bash
 # 1. Download the plugin
-wget https://github.com/your-org/rundeck-setroidefaults/releases/download/v0.1.0/set-roi-defaults-0.1.0.jar
+wget https://github.com/justynroberts/set-roi-defaults-plugin/releases/download/v0.1.0/set-roi-defaults-0.1.0.jar
 
 # 2. Upload via Rundeck Web UI
 # - Navigate to System → Plugins → Upload Plugin

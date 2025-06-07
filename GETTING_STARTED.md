@@ -32,7 +32,7 @@ Before starting, ensure you have:
 #### Option A: Download from Releases (Recommended)
 ```bash
 # Download the latest release
-wget https://github.com/your-org/rundeck-setroidefaults/releases/download/v0.1.0/set-roi-defaults-0.1.0.jar
+wget https://github.com/justynroberts/set-roi-defaults-plugin/releases/download/v0.1.0/set-roi-defaults-0.1.0.jar
 
 # Verify download
 ls -la set-roi-defaults-0.1.0.jar
@@ -41,7 +41,7 @@ ls -la set-roi-defaults-0.1.0.jar
 #### Option B: Build from Source
 ```bash
 # Clone and build
-git clone https://github.com/your-org/rundeck-setroidefaults.git
+git clone https://github.com/justynroberts/set-roi-defaults-plugin.git
 cd rundeck-setroidefaults
 gradle clean build
 
