@@ -1,0 +1,81 @@
+# Gradle build files
+build/
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Java/Groovy compiled files
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Package files
+*.tar.gz
+*.zip
+
+# Local configuration files
+local.properties
+
+# Test output
+test-output/
+target/
+
+# Backup files
+*.bak
+*.backup
+
+# Runtime files
+*.pid
+
+# Coverage reports
+.jacoco/
+jacoco.exec
+
+# Dependency directories
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Plugin artifacts (will be in releases)
+*.jar
+!gradle-wrapper.jar
+
+# Documentation build artifacts
+docs/_build/
+site/
+
+# Local development files
+scratch/
+notes/
+todo.txt
